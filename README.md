@@ -1,7 +1,9 @@
 Performance Analysis of Machine Learning Models Using Sampling Techniques
+
 M1: Random Forest Classifier
 Top Sampling Method: Sampling2 (Accuracy: 1.00)
 Explanation: The Random Forest performed best with Random Over-Sampling. This method likely helped the model by balancing the dataset and giving it better exposure to the minority class, leading to improved learning.
+
 M2: Logistic Regression
 Top Sampling Method: Sampling5 (Accuracy: 1.00)
 Explanation: NearMiss sampling gave the best results for Logistic Regression. By selectively removing majority class samples, the method seems to have improved the model’s ability to classify correctly.
